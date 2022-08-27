@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec55f90-05cd-4060-9f29-cabec7ed7958" name="Changes" comment="Se creo la clase MovimientoDinero">
+    <list default="true" id="0ec55f90-05cd-4060-9f29-cabec7ed7958" name="Changes" comment="Revision de instancias de objetos clase empresa, empleado y movimiento de dinero.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovimientoDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661220226960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revision de instancias de objetos clase empresa, empleado y movimiento de dinero.">
+      <created>1661619557321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661619557321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se creo la clase MovimientoDinero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se creo la clase MovimientoDinero" />
+    <MESSAGE value="Revision de instancias de objetos clase empresa, empleado y movimiento de dinero." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision de instancias de objetos clase empresa, empleado y movimiento de dinero." />
   </component>
 </project>
