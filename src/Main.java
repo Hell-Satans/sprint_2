@@ -1,4 +1,6 @@
-//public class Main {
+
+public class Main {
+
 
    // public static void main(String[] args) {
        // Empresa empresa1=new Empresa("CLARO S.A.S.","Cra 12 # 34 - 56","7603015","123456789-1");
@@ -17,6 +19,7 @@
    // }
     public static void main(String[] args) {
 
+
         MovimientoDinero micuenta = new MovimientoDinero("1223", "ahorro",150000);
         System.out.println("Saldo minimo : " +micuenta.getSaldoMinimo());
         micuenta.consignar(80000);
@@ -27,6 +30,7 @@
 
         MovimientoDinero sebasCuenta = new MovimientoDinero("2223","Credito",100000);
         System.out.println(sebasCuenta.toString());
+
 
 
 
