@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,5 +16,20 @@ public class Main {
         System.out.println("La empresa cambio su dirección a: "+empresa1.getDireccion());
         System.out.println("La empresa cambio su telefono a: "+empresa1.getTelefono());
         System.out.println("La empresa cambio su nit a: "+empresa1.getNit());
+
+        Scanner x=new Scanner(System.in);
+        String dia, mes, anho;
+        System.out.println("Ingrese dia de creación de la cuenta");
+        dia=x.next();
+        System.out.println("Ingrese mes de creacion de la cuenta");
+        mes=x.next();
+        System.out.println("Ingrese año de creacion de la cuenta");
+        anho=x.next();
+
+        date create1=new date(dia,mes,anho);
+
+        empresa1.setCreatedAt(create1);
+        System.out.println("La empresa creo su cuenta en nuestro software el: "+empresa1.getCreatedAt().toString());
+
     }
 }

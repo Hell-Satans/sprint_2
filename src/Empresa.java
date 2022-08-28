@@ -4,6 +4,8 @@ public class Empresa {
     private String direccion;
     private String telefono;
     private String nit;
+    private date createdAt;
+    private date updatedAt;
 
     public Empresa(String nombre, String direccion, String telefono, String nit) {
         this.nombre = nombre;
@@ -42,5 +44,21 @@ public class Empresa {
 
     public void setNit(String nit) {
         this.nit = nit;
+    }
+
+    public date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }
